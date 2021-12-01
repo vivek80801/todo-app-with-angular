@@ -1,0 +1,66 @@
+button {
+  margin: 1rem;
+  padding: 1rem;
+  cursor: pointer;
+  text-decoration: capitalize;
+  background-color: hsl(225, 20%, 40%);
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 0.75rem;
+}
+
+button:focus,
+button:active,
+button:hover {
+  outline-width: 0.5rem;
+  outline-style: groove;
+}
+
+.todos {
+  margin: 0 2rem;
+}
+
+.btn-add {
+  background-color: hsl(130deg 97% 14%);
+  color: #fff;
+}
+
+.btn-add:hover {
+  background-color: hsl(130deg 88% 28%);
+}
+
+.btn-inc {
+  background-color: hsl(225deg 87% 16%);
+  color: #fff;
+}
+
+.btn-inc:hover {
+  background-color: hsl(225deg 78% 34%);
+}
+
+.btn-dec {
+  background-color: hsl(296deg 92% 17%);
+  color: #fff;
+}
+
+.btn-dec:hover {
+  background-color: hsl(296deg 83% 32%);
+}
+
+.btn-delete {
+  background-color: hsl(3deg 89% 26%);
+  color: #fff;
+}
+
+.btn-delete:hover {
+  background-color: hsl(3deg 83% 38%);
+}
+
+span {
+  padding: 1rem;
+  background-color: hsl(3deg 83% 38%);
+  color: #fff;
+  border-radius: 50%;
+  font-weight: bold;
+}
